@@ -5,6 +5,7 @@ body {
 
 #piano {
     margin: auto;
+    margin-top: 20px;
 }
 
 .blanca {
@@ -49,4 +50,22 @@ body {
 .tecla {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+.github {
+    font-size: 30px;
+    color: white;
+}
+
+a {
+    margin-left: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
 }
