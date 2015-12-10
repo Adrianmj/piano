@@ -1,4 +1,4 @@
-var urlString = 'piano/Piano.ff.';
+var urlString = 'https://raw.githubusercontent.com/Adrianmj/piano/gh-pages/piano/Piano.ff.';
 var audios = [];
 var teclas = document.getElementsByClassName("tecla");
 auxiliar = {
