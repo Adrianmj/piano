@@ -12,7 +12,7 @@ body {
     height: 400px;
     box-shadow: 0 0 15px black inset;
     background-color: white;
-    width: 90px;
+    width: 6%;
     border: solid 1px black;
     display: inline-block;
     transition: all 0.2s linear;
@@ -22,6 +22,8 @@ body {
     position: relative;
     top: 4px;
 }
+
+
 
 .key {
     font-size: 20px;
@@ -34,27 +36,29 @@ body {
     box-shadow: 0 0 40px grey inset;
     z-index: 5;
     height: 200px;
-    width: 60px;
+    width: 4%;
     border: 1px;
     border: solid black 1px;
     display: inline-block;
     background-color: black;
     position: absolute;
-    transform: translate(-30px);
+    transform: translate(-50%);
 }
 
 .activa {
     border: solid 1px orange;
 }
 
+
 .tecla {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
-.github {
+#github div {
     font-size: 30px;
     color: white;
+    display: inline-block;
 }
 
 a {
@@ -68,4 +72,9 @@ a:visited {
     font-size: 30px;
     text-decoration: none;
     color: white;
+}
+
+.activa.negra {
+    top: 6%;
+    background-color: red;
 }
